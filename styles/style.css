@@ -1,0 +1,103 @@
+@font-face {
+  font-family: pokemon;
+  src: url(../fonts/Pokemon\ Hollow.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(94, 94, 94);
+}
+
+header {
+  background-color: rgb(63, 63, 63);
+  width: 100%;
+  height: 10rem;
+
+  position: relative;
+  text-align: center;
+}
+
+header h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: pokemon;
+  background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(194, 25, 25));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 3rem;
+}
+.conatainer {
+  margin: ;
+}
+
+.pokemon {
+  top: 30px;
+  float: left;
+  position: relative;
+  width: 20rem;
+  min-height: 19rem;
+  background-color: white;
+  border-radius: 2rem;
+  border: rgb(170, 170, 170) solid 2px;
+  margin-left: 7%;
+}
+
+.text {
+  margin: 1rem 0rem 0rem 2rem;
+}
+
+.pokemon h4,
+.pokedex {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.pokemon h4 {
+  margin-right: 130px;
+}
+
+.pokemon img {
+  width: 13rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pokemon .tipo {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tipo {
+  margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid;
+  border-radius: 10rem;
+  padding: 5px 10px 5px 10px;
+}
+
+.planta {
+  border-color: rgb(52, 153, 52);
+  background-image: linear-gradient(to bottom, #9bcc50 50%, #9bcc50 50%);
+}
+
+.fogo {
+  border-color: rgb(141, 14, 14);
+  background-image: linear-gradient(to bottom, #fd7d24 50%, #fd7d24 50%);
+}
+
+.agua {
+  border-color: rgb(55, 16, 194);
+  background-image: linear-gradient(to bottom, #4592c4 50%, #4592c4 50%);
+}

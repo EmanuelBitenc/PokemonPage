@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pokemon Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/detalhes.css'>
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo">. Projeto Pokemon .</h1>
+    </header>
+
+    <div id="container">
+        <div class="pokemon" onmousemove="detalheBulba()" onmouseleave="limpar()">
+            <div class="text">
+                <h4>Bulbasaur</h4>
+                <p class="pokedex">N°001</p>
+            </div>   
+                <img src="images/bulbasaur.jpg" 
+                alt="Pokemon Bulbasaur">
+                <p class="tipo planta">Planta</p>
+            
+        </div>  
+
+        <div class="pokemon" onmouseenter="detalheChar()" onmouseleave="limpar()">
+            <div class="text">
+                <h4>Charmander</h4>
+                <p class="pokedex">N°004</p>
+            </div>
+                <img src="images/charmander.png" 
+                alt="Pokemon Charmander">
+                <p class="tipo fogo">Fogo</p>
+        </div>  
+
+        <div class="pokemon" onmouseenter="detalheSqui()" onmouseleave="limpar()">
+            <div class="text">  
+                <h4>Squirtle</h4>  
+                <p class="pokedex">N°007</p>
+            </div>
+                <img src="images/squirtle.png" 
+                alt="Pokemon Squirtle">
+                <p class="tipo agua">Agua</p>
+        </div> 
+    </div>
+
+
+    <footer> 
+        <div class="detalhes" id="detalhes">
+            <p id="descricao"></p>
+
+        </div>
+    </footer>
+
+
+
+
+    
+
+
+
+
+
+</body>
+
+<script src='scripts/script.js'></script>
+</html>
